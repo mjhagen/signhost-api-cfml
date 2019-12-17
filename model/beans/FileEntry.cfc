@@ -1,4 +1,4 @@
-component accessors=true extends="cava.lib.cfml.signhost-api.abstracts.signhostBean" {
-  property array links;
-  property string displayname;
+component accessors=true extends="signhost-api.abstracts.signhostBean" {
+  property type='array' name='Links' cfc='Link';
+  property string DisplayName;
 }

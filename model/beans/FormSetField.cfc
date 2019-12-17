@@ -1,5 +1,5 @@
-component accessors=true extends="cava.lib.cfml.signhost-api.abstracts.signhostBean" {
-  property string type;
-  property string value;
-  property string location;
+component accessors=true extends="signhost-api.abstracts.signhostBean" {
+  property string Type;
+  property string Value;
+  property string Location;
 }

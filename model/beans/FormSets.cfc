@@ -1,3 +1,3 @@
-component accessors=true extends="cava.lib.cfml.signhost-api.abstracts.signhostBean" {
-  property array formsets;
+component accessors=true extends="signhost-api.abstracts.signhostBean" {
+  property array FormSets;
 }
